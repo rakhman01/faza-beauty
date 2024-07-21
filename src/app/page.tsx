@@ -1,6 +1,11 @@
+import About from "@/components/about/About";
+import BusinessOpportunity from "@/components/business-opportunity/BusinessOpportunity";
 import Header from "@/components/header/Header";
 import Hero from "@/components/hero/Hero";
 import ImageGallery from "@/components/image-galery/ImageGalery";
+import Pricing from "@/components/packet-join/Pricing";
+import Product from "@/components/product/Product";
+import VisionMission from "@/components/vision-mision/VisionMision";
 
 export default function Home() {
   return (
@@ -9,6 +14,11 @@ export default function Home() {
         <Header />
         <Hero />
         <ImageGallery />
+        <About />
+        <VisionMission />
+        <Product />
+        <BusinessOpportunity />
+        <Pricing />
       </div>
     </main>
   );
